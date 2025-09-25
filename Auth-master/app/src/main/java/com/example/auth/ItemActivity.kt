@@ -15,6 +15,7 @@ class ItemActivity : AppCompatActivity() {
         val title: TextView = findViewById(R.id.item_list_title_one)
         val text: TextView = findViewById(R.id.item_list_text)
         val image: ImageView = findViewById(R.id.item_list_image)
+        val price: TextView = findViewById(R.id.item_list_price)
 
         title.text = intent.getStringExtra("itemTitle")
         text.text = intent.getStringExtra("itemText")
@@ -24,5 +25,8 @@ class ItemActivity : AppCompatActivity() {
             val imageId = resources.getIdentifier(imageName, "drawable", packageName)
             image.setImageResource(imageId)
         }
+
+        val itemPrice = intent.getIntExtra("itemPrice", 0)
+        price.text = "$itemPrice$"
     }
 }

@@ -6,12 +6,15 @@
     android:layout_height="wrap_content"
     android:paddingBottom="20dp"
     android:layout_marginBottom="20dp"
-    android:background="#FAB222">
+    android:background="@drawable/shape_item_background">
 
     <ImageView
         android:id="@+id/item_list_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/one" />
 
@@ -47,7 +50,7 @@
         android:text="TextView"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:gravity="end"
+        android:gravity="start"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"/>
 
@@ -59,5 +62,5 @@
         android:fontFamily="@font/comfortaa_light"
         android:backgroundTint="#e2a"
         android:layout_height="wrap_content"
-        android:text="Посмотреть" />
+        android:text="Посмотреть"/>
 </LinearLayout>

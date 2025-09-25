@@ -18,7 +18,7 @@ class ItemsActivity : AppCompatActivity() {
         items.add(Item(1, "one", "Зимняя куртка", "Теплая куртка на синтепоне", "Капюшон, карманы на молнии", 450))
         items.add(Item(2, "two", "Демисезонное пальто", "Классическое пальто для весны", "Шерсть, приталенный крой", 600))
         items.add(Item(3, "three", "Плащ", "Защита от дождя и ветра", "Светлый цвет, легкий материал", 300))
-        items.add(Item(4, "four", "Бомбер", "Защита от дождя и ветра", "Светлый цвет, легкий материал", 300))
+        items.add(Item(4, "four", "Бомбер", "Защита от дождя и ветра", "Светлый цвет, легкий материал", 600))
 
         itemsList.layoutManager = LinearLayoutManager(this)
         itemsList.adapter = ItemsAdapter(items, this)
