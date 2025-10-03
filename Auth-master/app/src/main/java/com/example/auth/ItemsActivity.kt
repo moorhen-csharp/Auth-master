@@ -1,6 +1,8 @@
 package com.example.auth
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -14,6 +16,7 @@ class ItemsActivity : AppCompatActivity() {
 
         val itemsList: RecyclerView = findViewById(R.id.items_list)
         val items = arrayListOf<Item>()
+        val btn: Button = findViewById(R.id.button_bookshop)
 
         items.add(Item(1, "one", "Зимняя куртка", "Теплая куртка на синтепоне", "Капюшон, карманы на молнии", 450))
         items.add(Item(2, "two", "Демисезонное пальто", "Классическое пальто для весны", "Шерсть, приталенный крой", 600))
@@ -22,5 +25,10 @@ class ItemsActivity : AppCompatActivity() {
 
         itemsList.layoutManager = LinearLayoutManager(this)
         itemsList.adapter = ItemsAdapter(items, this)
+
+        btn.setOnClickListener {
+            val intent = Intent(this, BookshopActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -23,6 +23,12 @@
             android:name=".ItemsActivity"
             android:exported="false" />
         <activity
+            android:name=".BookshopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".AuthActivity"
             android:exported="true">
             <!-- Добавленный intent-filter -->
@@ -35,6 +41,7 @@
             android:name=".MainActivity"
             android:exported="true">
         </activity>
+
 
         <meta-data
             android:name="preloaded_fonts"

@@ -7,7 +7,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ItemsActivity">
+    tools:context=".ItemsActivity"
+    android:fitsSystemWindows="true">
 
     <TextView
         android:id="@+id/text"
@@ -21,11 +22,20 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/button_bookshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Корзина"
+        android:layout_gravity="end"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/items_list"
         android:layout_marginHorizontal="20dp"
         android:layout_marginVertical="30dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+
 
 </LinearLayout>
