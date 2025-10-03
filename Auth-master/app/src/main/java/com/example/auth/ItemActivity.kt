@@ -30,7 +30,7 @@ class ItemActivity : AppCompatActivity() {
         }
 
         val itemPrice = intent.getIntExtra("itemPrice", 0)
-        price.text = "$itemPrice$"
+        price.text = "$itemPrice₽"
 
         btn.setOnClickListener {
             val title = intent.getStringExtra("itemTitle") ?: ""
