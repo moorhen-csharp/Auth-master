@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#201E28"
+    android:background="#48182F"
     android:fitsSystemWindows="true"
     tools:context=".AuthActivity">
 
@@ -27,7 +27,7 @@
         android:layout_marginTop="170dp"
         android:fontFamily="@font/comfortaa_bold"
         android:text="Войдите в аккаунт"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -41,7 +41,7 @@
         android:textColorHint="#6a6a6a"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:hint="Введите логин" />
 
     <EditText
@@ -54,7 +54,7 @@
         android:textColorHint="#6a6a6a"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:hint="Введите пароль" />
 
     <Button
@@ -63,6 +63,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_bold"
         android:text="Войти"
+        android:textColor="#48182F"
         android:layout_gravity="center"
         android:backgroundTint="#e2a"
         android:layout_marginTop="30dp"/>
@@ -75,7 +76,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/comfortaa_light"
         android:text="Зарегистрироваться"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:textSize="15sp"
         android:textStyle="bold"
         tools:ignore="DuplicateIds" />

@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_bold"
-        android:textColor="@color/white"
+        android:textColor="#48182F"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
         android:text="TextView"
@@ -33,7 +33,7 @@
     <TextView
         android:id="@+id/item_list_desc"
         android:layout_width="match_parent"
-        android:textColor="@color/white"
+        android:textColor="#48182F"
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_light"
         android:text="TextView"
@@ -44,7 +44,7 @@
     <TextView
         android:id="@+id/item_list_price"
         android:layout_width="match_parent"
-        android:textColor="@color/white"
+        android:textColor="#48182F"
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_bold"
         android:text="TextView"
@@ -57,10 +57,10 @@
     <Button
         android:id="@+id/item_list_button"
         android:layout_width="200dp"
-        android:textColor="@color/white"
+        android:textColor="#d4cbc4"
         android:layout_gravity="center"
-        android:fontFamily="@font/comfortaa_light"
-        android:backgroundTint="#e2a"
+        android:fontFamily="@font/comfortaa_bold"
+        android:backgroundTint="#48182F"
         android:layout_height="wrap_content"
         android:text="Посмотреть"/>
 </LinearLayout>

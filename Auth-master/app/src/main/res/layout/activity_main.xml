@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#201E28"
+    android:background="#48182F"
     tools:context=".MainActivity"
     android:fitsSystemWindows="true">
 
@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_bold"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:layout_gravity="center"
         android:layout_marginTop="170dp"
         android:textSize="25sp"
@@ -31,7 +31,7 @@
         android:textColorHint="#6a6a6a"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:hint="Введите логин" />
 
     <EditText
@@ -44,7 +44,7 @@
         android:textColorHint="#6a6a6a"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:hint="Введите почту" />
 
     <EditText
@@ -57,7 +57,7 @@
         android:textColorHint="#6a6a6a"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:hint="Введите пароль" />
 
     <Button
@@ -67,7 +67,8 @@
         android:fontFamily="@font/comfortaa_bold"
         android:text="Регистрация"
         android:layout_gravity="center"
-        android:backgroundTint="#e2a"
+        android:textColor="#48182F"
+        android:backgroundTint="#d4cbc4"
         android:layout_marginTop="30dp"/>
 
     <TextView
@@ -78,7 +79,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/comfortaa_light"
         android:text="Войти"
-        android:textColor="#fdfdfd"
+        android:textColor="#d4cbc4"
         android:textSize="15sp"
         android:textStyle="bold" />
 

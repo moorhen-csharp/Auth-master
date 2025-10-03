@@ -4,7 +4,7 @@
     android:padding="20dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#39355B"
+    android:background="#48182F"
     android:fitsSystemWindows="true">
 
     <TextView
@@ -13,14 +13,15 @@
         android:layout_height="wrap_content"
         android:text="Цена заказа: 0 ₽"
         android:textSize="20sp"
-        android:textColor="@color/white"
+        android:textColor="#d4cbc4"
         android:fontFamily="@font/comfortaa_bold"/>
 
     <Spinner
         android:id="@+id/spinner_city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#d4cbc4"/>
 
     <Button
         android:id="@+id/button_calculate"
@@ -28,8 +29,9 @@
         android:layout_height="wrap_content"
         android:text="Рассчитать"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#e2a"
-        android:textColor="@color/white"/>
+        android:backgroundTint="#d4cbc4"
+        android:fontFamily="@font/comfortaa_bold"
+        android:textColor="#48182F"/>
 
     <TextView
         android:id="@+id/text_description"

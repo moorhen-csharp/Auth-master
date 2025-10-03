@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:background="#e2a600"
+    android:background="#48182F"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ItemActivity">
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_bold"
-        android:textColor="@color/white"
+        android:textColor="#d4cbc4"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
         android:text="TextView"
@@ -32,7 +32,7 @@
     <TextView
         android:id="@+id/item_list_text"
         android:layout_width="match_parent"
-        android:textColor="@color/white"
+        android:textColor="#d4cbc4"
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_light"
         android:text="TextView"
@@ -43,7 +43,7 @@
     <TextView
         android:id="@+id/item_list_price"
         android:layout_width="match_parent"
-        android:textColor="@color/white"
+        android:textColor="#d4cbc4"
         android:layout_height="wrap_content"
         android:fontFamily="@font/comfortaa_bold"
         android:text="TextView"
@@ -54,10 +54,10 @@
     <Button
         android:id="@+id/button_buy"
         android:layout_width="200dp"
-        android:textColor="@color/white"
+        android:textColor="#48182F"
         android:layout_gravity="center"
-        android:fontFamily="@font/comfortaa_light"
-        android:backgroundTint="#e2a"
+        android:fontFamily="@font/comfortaa_bold"
+        android:backgroundTint="#d4cbc4"
         android:layout_height="wrap_content"
         android:text="В корзину"/>
 
